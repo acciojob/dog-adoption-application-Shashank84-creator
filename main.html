@@ -8,8 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+<form id="DogAdoptionForm">
+	<h1>Dog Adoption Application</h1>
+	<label for="name">Name</label>
+	<input type="text" id="name" name="name" placeholder="name" required>
+
+	<label for="Phone number">Phone number</label>
+	<input type="text" id="phone" name="phone" placeholder="Phone number" required>
+
+	<label for="address">Address</label>
+	<input type="text" id="Address" name="Address" placeholder="Address" required>
+
+	<label for="Livedwithdog">Have you ever lived with a Dog before?"</label>
+	<input type="checkbox" id="Livedwithdog" name="Livedwithdog" value="Have you ever lived with a Dog before?">
+    	
+	<label for="Preferredbreeds"Please select your prefeered breeds:</label>
+	<select id="Preferredbreeds" name="preferredBreeds[]"Multiple required>
+
+		<option value="Labrador Dog">Labrador dog</option>
+		<option value="Germanshephred">German Shephred</option>
+		<option value="BullDog">Bulldog</option>
+		<option value="boxer">Boxer</option>
+		<option value="poodle">Poodle</option>
+		<option value="Beagle">Beagle</option>
+	</select>
+	<input type="Submit" value="Submit">
+		
+</form>
 
 </body>
 
